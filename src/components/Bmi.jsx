@@ -57,7 +57,7 @@ const Bmi = (props) => {
                 </div>
             </form>
             {props.bmi !== null && !isNaN(props.bmi) && (<p className="finalBmi" style={{ color: Color }}>Your BMI is {Math.floor(props.bmi)}</p>)}
-            <img src="https://austingynecomastiacenter.com/assets/img/blog/BMI-Chart-Simple.png" width='300px' alt="" />
+            <img src="https://austingynecomastiacenter.com/assets/img/blog/BMI-Chart-Simple.png" width='300px' alt="bmi chart" />
         </div>
     )
 }
